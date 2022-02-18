@@ -9,9 +9,6 @@
 
 ### Above combination will ignore all files w/o extension ###
 
-# Debugger
-*.dSYM/
-
 ### C++ ###
 # Prerequisites
 *.d
