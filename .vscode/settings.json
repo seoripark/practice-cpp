@@ -1,0 +1,17 @@
+{
+    "code-runner.runInTerminal": true,
+    "C_Cpp.default.cppStandard": "c++14",
+    "C_Cpp.default.cStandard": "c11",
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "php": "C:\\php\\php.exe",
+        "python": "python",
+        "perl": "perl",
+        "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe",
+        "go": "go run",
+        "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ -std=c++14 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    }
+}

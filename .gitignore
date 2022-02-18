@@ -1,6 +1,13 @@
+# Ignore all
+*
 
-# Created by https://www.toptal.com/developers/gitignore/api/osx,c++
-# Edit at https://www.toptal.com/developers/gitignore?templates=osx,c++
+# Unignore all with extensions
+!*.*
+
+# Unignore all directories
+!*/
+
+### Above combination will ignore all files w/o extension ###
 
 ### C++ ###
 # Prerequisites

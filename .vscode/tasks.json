@@ -1,58 +1,29 @@
 {
-    "version": "2.0.0",
     "tasks": [
         {
-            "type": "shell",
-            "label": "C bulid for clang",
-            "command": "clang",
+            "type": "cppbuild",
+            "label": "C/C++: g++ 활성 파일 빌드",
+            "command": "/usr/bin/g++",
             "args": [
+                "-fdiagnostics-color=always",
                 "-g",
+                "-std=c++14",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "options": {
-                "cwd": "${workspaceRoot}"
+                "cwd": "${fileDirname}"
             },
-            "presentation": {
-                "clear": true
-            },
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": []
-        },
-        {
-            "type": "shell",
-            "label": "C++ bulid for clang++",
-            "command": "clang++",
-            "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+            "problemMatcher": [
+                "$gcc"
             ],
-            "options": {
-                "cwd": "${workspaceRoot}"
-            },
-            "presentation": {
-                "clear": true
-            },
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": []
-        },
-        {
-            "type": "shell",
-            "label": "execute",
-            "command": "${fileDirname}/${fileBasenameNoExtension}",
-            "group": "test",
-            "presentation": {
-                "clear": true
-            }
+            "detail": "디버거에서 생성된 작업입니다."
         }
-    ]
+    ],
+    "version": "2.0.0"
 }
