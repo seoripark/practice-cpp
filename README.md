@@ -1,1 +1,1 @@
-# self-taught-cpp
+# practice-cpp
