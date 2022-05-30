@@ -43,6 +43,10 @@
 *.out
 *.app
 
+# Other
+*.dSYM
+*.dSYM.zip
+
 ### OSX ###
 # General
 .DS_Store
